@@ -15,14 +15,12 @@ public class MainActivity extends BaseActivity<MainView,MainPresenterImpl> imple
 
     private EditText etUserName;
     private EditText etPassWord;
-    private MainPresenterImpl presenter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
-        presenter = new MainPresenterImpl(this);
 
     }
 
