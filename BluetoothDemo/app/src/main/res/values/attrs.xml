@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Circle">
+        <attr name="first_round_color" format="color"/>
+        <attr name="second_round_color" format="color"/>
+        <attr name="third_round_color" format="color"/>
+        <attr name="circle_width" format="dimension"/>
+    </declare-styleable>
+</resources>
